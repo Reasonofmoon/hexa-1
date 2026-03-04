@@ -40,14 +40,22 @@ api_key = userdata.get('GEMINI_API_KEY')
 
 ---
 
-## ⚙️ 3모듈 커리큘럼
+## ⚙️ 12주 커리큘럼
 
-| 모듈 | 제목 | Colab | Labs |
-|---|---|---|---|
-| M1 | AX 진단 & 제조업 벤치마킹 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/M1_AX_diagnosis.ipynb) | [labs/M1](labs/M1-diagnosis/) |
-| M7-MFG | KPI 분석 & 불량률 자동 보고 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/M7_MFG_kpi_lab.ipynb) | [labs/M7-MFG](labs/M7-MFG/) |
-| M9 | 사내 시스템 연동 & 자동 보고서 배포 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/M9_auto_report.ipynb) | [labs/M9](labs/M9-deploy/) |
-
+| 주차 | 노트북 | 주제 |
+|------|--------|------|
+| W1 | [M1_AX_diagnosis.ipynb](notebooks/M1_AX_diagnosis.ipynb) | AX 자가진단 & 벤치마킹 |
+| W2 | [W02_defect_classifier.ipynb](notebooks/W02_defect_classifier.ipynb) | 불량 유형 AI 자동 분류 |
+| W3 | [W03_delivery_doc.ipynb](notebooks/W03_delivery_doc.ipynb) | 납품 문서 자동 생성 |
+| W4 | [W04_hr_automation.ipynb](notebooks/W04_hr_automation.ipynb) | 채용공고 & 작업지시서 |
+| W5 | [M7_MFG_kpi_lab.ipynb](notebooks/M7_MFG_kpi_lab.ipynb) | KPI 불량률 분석 & 시각화 |
+| W6 | [W06_oee_trend.ipynb](notebooks/W06_oee_trend.ipynb) | OEE & 생산성 트렌드 |
+| W7 | [W07_slack_alert.ipynb](notebooks/W07_slack_alert.ipynb) | Slack 생산 알림 자동화 |
+| W8 | [W08_sheets_kpi.ipynb](notebooks/W08_sheets_kpi.ipynb) | Google Sheets 실시간 연동 |
+| W9 | [W09_predictive.ipynb](notebooks/W09_predictive.ipynb) | 예지보전 이상감지 |
+| W10 | [W10_vendor_comm.ipynb](notebooks/W10_vendor_comm.ipynb) | 협력사 커뮤니케이션 자동화 |
+| W11 | [W11_mfg_dashboard.ipynb](notebooks/W11_mfg_dashboard.ipynb) | 제조업 종합 AI 대시보드 |
+| W12 | [W12_cockpit.ipynb](notebooks/W12_cockpit.ipynb) | AI 운영 시스템 완성 & 발표 |
 ---
 
 ## 📂 프로젝트 구조
